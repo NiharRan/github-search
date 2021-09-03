@@ -38667,7 +38667,7 @@ var render = function() {
         attrs: { type: "text", placeholder: "Search" },
         domProps: { value: _vm.search },
         on: {
-          keyup: _vm.fetchGithubUsers,
+          change: _vm.fetchGithubUsers,
           input: function($event) {
             if ($event.target.composing) {
               return

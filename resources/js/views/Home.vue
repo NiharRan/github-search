@@ -4,7 +4,7 @@
       <input
         type="text"
         v-model="search"
-        @keyup="fetchGithubUsers"
+        @change="fetchGithubUsers"
         class="border-indigo-700 block w-full"
         placeholder="Search"
       />
